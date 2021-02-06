@@ -1,0 +1,22 @@
+var userChoice = prompt ("Heads or tails?");
+var randomNumber = Math.floor((Math.random() * 1) +0.5);
+var computerChoice
+if (randomNumber = 0){
+    computerChoice = "heads";
+} else if (randomNumber = 1) {
+    computerChoice = "tails";
+} 
+if (userChoice == computerChoice) {
+    alert ("You guessed right! The coin flipped landed on " + userChoice)
+} else if (userChoice != computerChoice) {
+    alert ("Sorry, the coin flip landed on " + computerChoice)
+    }
+var birthYear = prompt ("What year were you born?")
+var age = (2021 - birthYear)
+if (age > 21) {
+    alert ("You are old enough to drink in the US")
+} else if (age == 21) {
+    alert ("You are old enough to drink in the US...barely")
+} else if (age < 21) {
+    alert ("Sorry, you are not old enough to drink in the US")
+}
